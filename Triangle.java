@@ -8,7 +8,7 @@ public class Triangle
 			int Side2 = Integer.parseInt(args[1]);
 			int Side3 = Integer.parseInt(args[2]);
 			boolean Triangle = (Side1 + Side2) > Side3 && (Side1 +Side3) > Side2 && (Side2 + Side3) > Side1;
-			System.out.println(Side1 + ", " + Side2 + ", " + Side3 + ":" + Triangle);
+			System.out.println(Side1 + ", " + Side2 + ", " + Side3 + ": " + Triangle);
 			
 		}
 	}
