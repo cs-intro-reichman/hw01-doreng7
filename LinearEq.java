@@ -8,7 +8,7 @@ public class LinearEq
 			double c = Integer.parseInt(args[2]);
 			double x = (c-b)/a;
 			System.out.println(a + " * " + "x + " + b + "= " + c);			
-			System.out.println("x " + "=" + x);
+			System.out.println("x " + "= " + x);
 			
 		}
 	}
